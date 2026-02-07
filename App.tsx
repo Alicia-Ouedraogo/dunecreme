@@ -1,10 +1,10 @@
 
 import React, { useEffect, useState } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import ProductSection from './components/ProductSection';
-import Advisor from './components/Advisor';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import ProductSection from './components/ProductSection.tsx';
+import Advisor from './components/Advisor.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<'home' | 'order'>('home');
